@@ -1,0 +1,5 @@
+.header__languages .header__nav-lang:not(:last-child):after {
+    content: '|';
+    color: white;
+    padding-left: 5px;
+}
