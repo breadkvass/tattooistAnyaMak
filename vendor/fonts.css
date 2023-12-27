@@ -1,26 +1,19 @@
 @font-face {
-    src: url(../fonts/century-gothic/CenturyGothic-Regular.woff) format('woff');
-        font-family: 'Century Gothic';
-        font-weight: 400;
+    src: url(../fonts/Montserrat-ExtraLight.woff) format('woff');
+        font-family: 'Montserrat';
+        font-weight: 200;
         font-style: normal;
 }
 
 @font-face {
-    src: url(../fonts/century-gothic/CenturyGothic-Bold.woff) format('woff');
-        font-family: 'Century Gothic';
-        font-weight: 700;
+    src: url(../fonts/Montserrat-Light.woff) format('woff');
+        font-family: 'Montserrat';
+        font-weight: 300;
         font-style: normal;
 }
 
 @font-face {
-    src: url(../fonts/journalism/JOURNALISM.woff) format('woff');
-        font-family: 'Journalism';
-        font-weight: 400;
-        font-style: normal;
-}
-
-@font-face {
-    src: url(../fonts/montserrat/Montserrat-Regular.woff) format('woff');
+    src: url(../fonts/Montserrat-Regular.woff) format('woff');
         font-family: 'Montserrat';
         font-weight: 400;
         font-style: normal;
