@@ -1,0 +1,5 @@
+.about__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}

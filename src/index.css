@@ -22,3 +22,21 @@
 @import url(./blocks/start/__instagram/start__instagram.css);
 @import url(./blocks/start/__insta-login/start__insta-login.css);
 @import url(./blocks/start/__insta-logo/__insta-logo.css);
+
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__content/about__content.css);
+@import url(./blocks/about/__desc/about__desc.css);
+@import url(./blocks/about/__img/about__img.css);
+@import url(./blocks/about/__right/about__right.css);
+
+@import url(./blocks/button/button.css);
+@import url(./blocks/button/button_black.css);
+@import url(./blocks/button/button_white.css);
+
+@import url(./blocks/text/text.css);
+@import url(./blocks/text/text_right.css);
+@import url(./blocks/text/__color/text__color_black.css);
+@import url(./blocks/text/__color/text__color_white.css);
+
+@import url(./blocks/title/title.css);
+@import url(./blocks/title/title_right.css);
