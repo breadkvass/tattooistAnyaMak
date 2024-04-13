@@ -50,3 +50,7 @@
 @import url(./blocks/book/__images/book__images.css);
 @import url(./blocks/book/__img/book__img.css);
 @import url(./blocks/book/__left/book__left.css);
+
+@import url(./blocks/price/price.css);
+@import url(./blocks/price/__content/price__content.css);
+@import url(./blocks/price/__info/price__info.css);

@@ -1,0 +1,5 @@
+.price {
+    background-image: url(../../images/price_background.png);
+    height: 720px;
+    background-size: cover;
+}
