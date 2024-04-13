@@ -1,0 +1,7 @@
+.book__left {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    justify-content: start;
+}

@@ -1,0 +1,5 @@
+.book__images {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

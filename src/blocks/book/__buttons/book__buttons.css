@@ -1,0 +1,6 @@
+.book__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: center;
+}

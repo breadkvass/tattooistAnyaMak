@@ -25,9 +25,10 @@
 
 @import url(./blocks/about/about.css);
 @import url(./blocks/about/__content/about__content.css);
-@import url(./blocks/about/__desc/about__desc.css);
 @import url(./blocks/about/__img/about__img.css);
 @import url(./blocks/about/__right/about__right.css);
+
+@import url(./blocks/desc/desc.css);
 
 @import url(./blocks/button/button.css);
 @import url(./blocks/button/button_black.css);
@@ -40,3 +41,12 @@
 
 @import url(./blocks/title/title.css);
 @import url(./blocks/title/title_right.css);
+@import url(./blocks/title/title_left.css);
+
+@import url(./blocks/book/book.css);
+@import url(./blocks/book/__buttons/book__buttons.css);
+@import url(./blocks/book/__columns/book__columns.css);
+@import url(./blocks/book/__content/book__content.css);
+@import url(./blocks/book/__images/book__images.css);
+@import url(./blocks/book/__img/book__img.css);
+@import url(./blocks/book/__left/book__left.css);

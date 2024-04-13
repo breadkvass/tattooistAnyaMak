@@ -1,0 +1,5 @@
+.book__columns {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
