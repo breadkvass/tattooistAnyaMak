@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .page {
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
