@@ -8,15 +8,25 @@
   <link rel="stylesheet" type="text/html" href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
   <title>Аня Мак тату</title>
 </head>
+<script>
+	window.onload = () => {
+		const preloader = document.getElementById('preloader');
+		preloader.classList.remove('preloader_open');
+		preloader.classList.add('preloader_closed');
+	}
+</script>
 <body class="page">
+	<div id='preloader' class="preloader_open">
+		<div class="spinner"></div>
+	</div>
 	<header class="header">
 		<nav class="header__nav">
 			<ul class="header__list">
-				<li class="header__nav-link"><a href="#">обо мне</a></li>
-				<li class="header__nav-link"><a href="#">записаться</a></li>
-				<li class="header__nav-link"><a href="#">стоимость</a></li>
-				<li class="header__nav-link"><a href="#">портфолио</a></li>
-				<li class="header__nav-link"><a href="#">рекомендации</a></li>
+				<li class="header__nav-link"><a href="#about">обо мне</a></li>
+				<li class="header__nav-link"><a href="#book">записаться</a></li>
+				<li class="header__nav-link"><a href="#price">стоимость</a></li>
+				<li class="header__nav-link"><a href="#portfolio">портфолио</a></li>
+				<li class="header__nav-link"><a href="#reccomend">рекомендации</a></li>
 			</ul>
 			<ul class="header__languages">
 				<li class="header__nav-lang"><a href="#">ru</a></li>
@@ -36,15 +46,14 @@
 					<li class="start__location">Европа</li>
 				</ul>
 				<img class="start__arrow" src="<%=require('./images/arrow.png')%>"> 
-				
-				<a class="start__schedule" href="#">график гостевых спотов</a>
-				<a class="start__instagram" href="#">
+				<a class="start__schedule" href="#spots">график гостевых спотов</a>
+				<a class="start__instagram" href="https://www.instagram.com/mak_twins">
 					<img class="start__insta-logo" src="<%=require('./images/instagram.png')%>" alt="Логотип инстаграма"> 
 					<p class="start__insta-login">@MAK_TWINS</p>
 				</a>
 			</div>
 		</section>
-		<section class="about">
+		<section class="about" id="about">
 			<div class="about__content">
 				<img class="about__img" src="<%=require('./images/about.png')%>" alt="Фото работы">
 				<div class="about__right">
@@ -61,11 +70,11 @@
 							elit sollicitudin. Suspendisse potenti.
 						</p>
 					</div>
-					<button class="button button_black">график гостевых спотов</button>
+					<a href="#spots"><button class="button button_black">график гостевых спотов</button></a>
 				</div>
 			</div>
 		</section>
-		<section class="book">
+		<section class="book" id="book">
 			<div class="book__content">
 				<div class="book__columns">
 					<div class="book__left">
@@ -89,12 +98,12 @@
 				</div>
 				<div class="book__buttons">
 					<button class="button button_black">оставить заявку</button>
-					<button class="button button_black">рекомендации</button>
+					<a href="#reccomend"><button class="button button_black">рекомендации</button></a>
 				</div>
 
 			</div>
 		</section>
-		<section class="price">
+		<section class="price" id="price">
 			<div class="price__content">
 				<div class="price__info">
 					<h2 class="title title_right text__color_white">СТОИМОСТЬ</h2>
@@ -106,7 +115,7 @@
 				<button class="button button_white">оставить заявку</button>
 			</div>
 		</section>
-		<section class="portfolio">
+		<section class="portfolio" id="portfolio">
 			<div class="portfolio__content">
 				<h2 class="title title_center text__color_black">ПОРТФОЛИО</h2>
 				<div id="intro" class="glide">
@@ -132,7 +141,7 @@
 				<button class="button button_black">оставить заявку</button>
 			</div>
 		</section>
-		<section class="reccomend">
+		<section class="reccomend" id="reccomend">
 			<div class="reccomend__content">
 				<h2 class="title title_center text__color_black">РЕКОМЕНДАЦИИ</h2>
 				<div class="desc">
@@ -157,7 +166,7 @@
 			
 
 		</section>
-		<section class="spots">
+		<section class="spots" id="spots">
 			<div class="spots__content">
 				<h2 class="title title_center text__color_white">ГРАФИК ГОСТЕВЫХ СПОТОВ</h2>
 				<div class="spots__desc">
