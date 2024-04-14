@@ -1,0 +1,6 @@
+.spots__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-self: flex-start;
+}

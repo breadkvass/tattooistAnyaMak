@@ -36,7 +36,8 @@
 @import url(./blocks/button/button_arrow.css);
 
 @import url(./blocks/text/text.css);
-@import url(./blocks/text/text_right.css);
+@import url(./blocks/text/__pos/text__pos_left.css);
+@import url(./blocks/text/__pos/text__pos_right.css);
 @import url(./blocks/text/__color/text__color_black.css);
 @import url(./blocks/text/__color/text__color_white.css);
 
@@ -68,3 +69,11 @@
 
 @import url(./blocks/reccomend/reccomend.css);
 @import url(./blocks/reccomend/__content/reccomend__content.css);
+
+@import url(./blocks/spots/spots.css);
+@import url(./blocks/spots/__content/spots__content.css);
+@import url(./blocks/spots/__desc/spots__desc.css);
+@import url(./blocks/spots/__city-container/spots__city-container.css);
+@import url(./blocks/spots/__city/spots__city.css);
+@import url(./blocks/spots/__country/spots__country.css);
+@import url(./blocks/spots/__arrow/spots__arrow.css);
