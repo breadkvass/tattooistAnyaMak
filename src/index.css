@@ -33,6 +33,7 @@
 @import url(./blocks/button/button.css);
 @import url(./blocks/button/button_black.css);
 @import url(./blocks/button/button_white.css);
+@import url(./blocks/button/button_arrow.css);
 
 @import url(./blocks/text/text.css);
 @import url(./blocks/text/text_right.css);
@@ -54,3 +55,13 @@
 @import url(./blocks/price/price.css);
 @import url(./blocks/price/__content/price__content.css);
 @import url(./blocks/price/__info/price__info.css);
+
+@import url(./blocks/portfolio/portfolio.css);
+@import url(./blocks/portfolio/__content/portfilio__content.css);
+@import url(./blocks/portfolio/__img/portfolio__img.css);
+@import url(./blocks/portfolio/__buttons/portfolio__buttons.css);
+
+@import url(./blocks/carousel/carousel.css);
+@import url(./blocks/carousel/__images/carousel__images.css);
+@import url(./blocks/carousel/__arrows/carousel__arrows.css);
+@import url(./blocks/carousel/__image/carousel__image.css);

@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" src="index.css">
+  <link rel="stylesheet" type="text/html" href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <link rel="stylesheet" type="text/html" href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
   <title>Аня Мак тату</title>
 </head>
 <body class="page">
@@ -104,7 +106,32 @@
 				<button class="button button_white">оставить заявку</button>
 			</div>
 		</section>
-		
+		<section class="portfolio">
+			<div class="portfolio__content">
+				<h2 class="title title_center text__color_black">ПОРТФОЛИО</h2>
+				<div id="intro" class="glide">
+					<div class="glide__track carousel" data-glide-el="track">
+					  	<ul class="glide__slides carousel__images">
+							<li class="carousel__image"><img class="glide__slide portfolio__img" src="<%=require('./images/portfolio_img_1.png')%>"></li>
+							<li class="carousel__image"><img class="glide__slide portfolio__img" src="<%=require('./images/portfolio_img_3.png')%>"></li>
+							<li class="carousel__image"><img class="glide__slide portfolio__img" src="<%=require('./images/portfolio_img_4.png')%>"></li>
+							<li class="carousel__image"><img class="glide__slide portfolio__img" src="<%=require('./images/portfolio_img_5.png')%>"></li>
+							<li class="carousel__image"><img class="glide__slide portfolio__img" src="<%=require('./images/portfolio_img_6.png')%>"></li>
+							<li class="carousel__image"><img class="glide__slide portfolio__img" src="<%=require('./images/portfolio_img_7.png')%>"></li>
+					  	</ul>
+						<div class="portfolio__buttons glide__arrows" data-glide-el="controls">
+							<button class="button button_arrow glide__arrow glide__arrow--left" data-glide-dir="<">
+								<img class="glide__slide" src="<%=require('./images/arrow_left.png')%>">
+							</button>
+							<button class="button button_arrow glide__arrow glide__arrow--right" data-glide-dir=">">
+								<img class="glide__slide" src="<%=require('./images/arrow_right.png')%>">
+							</button>
+						</div>
+					</div>
+				</div>
+				<button class="button button_black">оставить заявку</button>
+			</div>
+		</section>
 	</main>
 	<footer class="footer">
 		

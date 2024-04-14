@@ -1,0 +1,11 @@
+.portfolio__content {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+    overflow-x: hidden;
+}
