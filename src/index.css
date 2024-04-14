@@ -65,3 +65,6 @@
 @import url(./blocks/carousel/__images/carousel__images.css);
 @import url(./blocks/carousel/__arrows/carousel__arrows.css);
 @import url(./blocks/carousel/__image/carousel__image.css);
+
+@import url(./blocks/reccomend/reccomend.css);
+@import url(./blocks/reccomend/__content/reccomend__content.css);
