@@ -1,0 +1,4 @@
+.form__label_check {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}

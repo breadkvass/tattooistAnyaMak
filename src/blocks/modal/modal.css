@@ -1,0 +1,10 @@
+.modal {
+    width: 550px;
+    position: relative;
+}
+
+@media (max-width: 1023px) {
+    .modal {
+        width: 460px;
+    }
+}

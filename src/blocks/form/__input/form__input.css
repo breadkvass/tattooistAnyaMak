@@ -1,0 +1,9 @@
+.form__input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.form__input:focus {
+    border-bottom: 2px solid black;
+}

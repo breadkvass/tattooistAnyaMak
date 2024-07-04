@@ -194,6 +194,50 @@
 			</div>
 
 		</section>
+
+		<section class="modal__overlay">
+			<div class="modal">
+				<img class="close-icon close-icon_modal" src="<%=require('./images/icon_close.png')%>" alt="Закрыть" />
+				<div class="modal__content">
+					<form class="form" id='form'>
+						<h3 class="form__title">оставить заявку</h3>
+						<label class="form__label">фамилия, имя
+							<input class="form__input"
+								name='name'
+								type='text'
+								required
+							/>
+						</label>
+						<label class="form__label form__label_check">Мне уже есть 18
+							<input class="form__input"
+								name='age'
+								type='checkbox'
+							/>
+						</label>
+						<label class="form__label">telegram
+							<input class="form__input"
+								type='text'
+								name='telegram'
+							/>
+						</label>
+						<label class="form__label">email
+							<input class="form__input"
+								type='email'
+								name='email'
+								required
+							/>
+						</label>
+						<label class="form__label">желаемое место для татуаровки и ее размер
+							<textarea class="form__textarea" name='tatoo'></textarea>
+						</label>
+						<label class="form__label">опиши, что это будет
+							<textarea class="form__textarea" name='idea'></textarea>
+						</label>
+						<button class="form__button" type='submit'>Отправить</button>
+					</form>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer class="footer">
 		

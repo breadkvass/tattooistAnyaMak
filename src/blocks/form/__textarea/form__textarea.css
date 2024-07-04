@@ -1,0 +1,9 @@
+.form__textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.form__textarea:focus {
+    border-bottom: 2px solid black;
+}
