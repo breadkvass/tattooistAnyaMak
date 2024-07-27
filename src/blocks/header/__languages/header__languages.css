@@ -5,5 +5,11 @@
     justify-content: flex-start;
     gap: 5px;
     margin: 0;
-    padding: 0;
+    padding-right: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__nav {
+        justify-self: end;
+    }
 }
