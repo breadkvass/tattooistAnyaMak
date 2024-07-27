@@ -1,10 +1,19 @@
 .start__content {
     width: 1024px;
     margin: 0 auto;
-    background: url(../../../images/background.png);
+    background-image: url(../../../images/background.png);
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
     padding: 16px 0 16px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .start__content {
+        width: 768px;
+        gap: 16px;
+        object-fit: cover;
+        background-position: right 0;
+    }
 }
