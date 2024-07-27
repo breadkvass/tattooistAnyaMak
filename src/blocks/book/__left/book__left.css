@@ -5,3 +5,9 @@
     align-items: start;
     justify-content: start;
 }
+
+@media screen and (max-width: 1024px) {
+    .book__left {
+        gap: 32px;
+    }
+}
