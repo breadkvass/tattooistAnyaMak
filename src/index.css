@@ -89,8 +89,9 @@
 @import url(./blocks/form/__textarea/form__textarea.css);
 @import url(./blocks/form/__button/form__button.css);
 @import url(./blocks/form/__label/form__label_check.css);
+@import url(./blocks/form/__label/form__label_reverse.css);
 
-@import url(./blocks/hidden/hidden.css);
+@import url(./blocks/open/open.css);
 
 @import url(./blocks/close-icon/close-icon.css);
 

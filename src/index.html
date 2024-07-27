@@ -97,7 +97,7 @@
 					</div>
 				</div>
 				<div class="book__buttons">
-					<button class="button button_black">оставить заявку</button>
+					<button class="button button_black button-request">оставить заявку</button>
 					<a href="#reccomend"><button class="button button_black">рекомендации</button></a>
 				</div>
 
@@ -112,7 +112,7 @@
 						Donec mollis, ex ut imperdiet facilisis, tellus orci accumsan nisi, nec suscipit quam metus sit amet elit.
 					</p>
 				</div>
-				<button class="button button_white">оставить заявку</button>
+				<button class="button button_white button-request">оставить заявку</button>
 			</div>
 		</section>
 		<section class="portfolio" id="portfolio">
@@ -138,7 +138,7 @@
 						</div>
 					</div>
 				</div>
-				<button class="button button_black">оставить заявку</button>
+				<button class="button button_black button-request">оставить заявку</button>
 			</div>
 		</section>
 		<section class="reccomend" id="reccomend">
@@ -190,7 +190,7 @@
 						<p class="text text__pos_left spots__city">БЕРЛИН ( xx.xx.24 - yy.yy.24 )</p>
 					</div>
 				</div>
-				<button class="button button_white">оставить заявку</button>
+				<button class="button button_white button-request">оставить заявку</button>
 			</div>
 
 		</section>
@@ -201,39 +201,67 @@
 				<div class="modal__content">
 					<form class="form" id='form'>
 						<h3 class="form__title">оставить заявку</h3>
-						<label class="form__label">фамилия, имя
+						<label class="form__label">
 							<input class="form__input"
 								name='name'
 								type='text'
+								minlength='2'
+								maxlength='35'
+								placeholder='фамилия, имя'
 								required
 							/>
 						</label>
-						<label class="form__label form__label_check">Мне уже есть 18
-							<input class="form__input"
+						<label class="form__label form__label_check">мне уже есть 18:
+							<label class="form__label">да
+								<input class="form__radio-input"
 								name='age'
-								type='checkbox'
+								type='radio'
 							/>
+							</label>
+							<label class="form__label">нет
+								<input class="form__radio-input"
+									name='age'
+									type='radio'
+								/>
+							</label>
 						</label>
-						<label class="form__label">telegram
+						<label class="form__label">
 							<input class="form__input"
 								type='text'
 								name='telegram'
+								placeholder='telegram'
+								minlength='5'
+								maxlength='30'
+								pattern='^[a-zA-Z0-9_]+$'
 							/>
 						</label>
-						<label class="form__label">email
+						<label class="form__label">
 							<input class="form__input"
 								type='email'
 								name='email'
+								placeholder='email'
 								required
 							/>
 						</label>
-						<label class="form__label">желаемое место для татуаровки и ее размер
-							<textarea class="form__textarea" name='tatoo'></textarea>
+						<label class="form__label form__label_reverse">
+							<input class="form__textarea"
+								name='tattoo'
+								minlength='10'
+								maxlength='150'
+								placeholder='желаемое место для&nbsp;татуировки, и&nbsp;ее размер'
+								required>
+							</input>
 						</label>
-						<label class="form__label">опиши, что это будет
-							<textarea class="form__textarea" name='idea'></textarea>
+						<label class="form__label form__label_reverse">
+							<input class="form__textarea"
+								name='idea'
+								minlength='10'
+								maxlength='150'
+								placeholder='опиши, что это будет'
+								required>
+							</input>
 						</label>
-						<button class="form__button" type='submit'>Отправить</button>
+						<button class="form__button" type='submit'>отправить</button>
 					</form>
 				</div>
 			</div>

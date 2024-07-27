@@ -1,5 +1,6 @@
 .form__label {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     gap: 5px;
 }
