@@ -3,3 +3,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .spots__country {
+        font-size: 30px;
+    }
+}
