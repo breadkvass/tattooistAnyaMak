@@ -2,3 +2,10 @@
     height: 500px;
     width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+    .portfolio__img {
+        height: 400px;
+        width: 100%;
+    }
+}

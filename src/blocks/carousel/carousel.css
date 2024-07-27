@@ -3,3 +3,9 @@
     flex-direction: column;
     width: 1024px;
 }
+
+@media screen and (max-width: 1024px) {
+    .carousel {
+        width: 768px;
+    }
+}

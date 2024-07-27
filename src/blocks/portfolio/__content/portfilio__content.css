@@ -9,3 +9,9 @@
     padding: 50px 0;
     overflow-x: hidden;
 }
+
+@media screen and (max-width: 1024px) {
+    .portfolio__content {
+        width: 768px;
+    }
+}
