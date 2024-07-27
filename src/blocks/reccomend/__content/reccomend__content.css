@@ -7,3 +7,9 @@
     padding: 50px 0;
     gap: 50px;
 }
+
+@media screen and (max-width: 1024px) {
+    .reccomend__content {
+        width: 768px;
+    }
+}
