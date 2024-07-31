@@ -8,3 +8,9 @@
         width: 460px;
     }
 }
+
+@media (max-width: 768px) {
+    .modal {
+        width: 230px;
+    }
+}
