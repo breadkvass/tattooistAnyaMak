@@ -11,3 +11,9 @@
         font-size: 32px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .start__insta-login {
+        font-size: 16px;
+    }
+}

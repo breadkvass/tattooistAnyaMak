@@ -4,7 +4,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .start__content {
+    .start__schedule {
         font-size: 24px;
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .start__schedule {
+        font-size: 18px;
     }
 }

@@ -11,3 +11,9 @@
         padding-top: 24px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .start__list {
+        padding-top: 20px;
+    }
+}

@@ -2,17 +2,31 @@
     width: 1024px;
     margin: 0 auto;
     background-image: url(../../../images/background.png);
-    background-position: right 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
     display: flex;
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
-    padding: 16px 0 16px 0;
+    padding: 16px 0;
+    border-top: 2px solid white;
 }
 
 @media screen and (max-width: 1024px) {
     .start__content {
         width: 768px;
         gap: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .start__content {
+        min-width: 320px;
+        width: 100%;
+        gap: 10px;
+        height: 500px;
+        justify-content: end;
+        /* background-size: cover; */
     }
 }

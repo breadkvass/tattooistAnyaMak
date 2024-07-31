@@ -9,3 +9,10 @@
         height: 36px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .start__insta-logo {
+        width: 20px;
+        height: 20px;
+    }
+}
