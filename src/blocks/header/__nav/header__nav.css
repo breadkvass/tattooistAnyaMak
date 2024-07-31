@@ -12,3 +12,12 @@
         width: 768px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header__nav {
+        width: 320px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+}
