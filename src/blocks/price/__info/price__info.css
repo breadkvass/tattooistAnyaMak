@@ -5,3 +5,12 @@
     width: 600px;
     align-self: self-end;
 }
+
+@media screen and (max-width: 768px) {
+    .price__info {
+        width: calc(100% - 32px);
+        margin: 0 auto;
+        gap: 20px;
+        align-self: center;
+    }
+}

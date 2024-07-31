@@ -3,3 +3,10 @@
     height: 720px;
     background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+    .price {
+        background-position: center;
+        height: 520px;
+    }
+}
