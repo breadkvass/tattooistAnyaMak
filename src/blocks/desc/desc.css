@@ -3,3 +3,9 @@
     flex-direction: column;
     gap: 35px;
 }
+
+@media screen and (max-width: 768px) {
+    .desc {
+        gap: 20px;
+    }
+}
