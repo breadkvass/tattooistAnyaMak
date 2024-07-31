@@ -8,3 +8,9 @@
         width: 360px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about__img {
+        width: 100%;
+    }
+}

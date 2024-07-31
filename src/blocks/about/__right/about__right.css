@@ -5,3 +5,10 @@
     align-items: end;
     gap: 32px;
 }
+
+@media screen and (max-width: 768px) {
+    .about__right {
+        align-items: center;
+        padding: 0 16px;
+    }
+}
