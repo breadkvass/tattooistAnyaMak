@@ -173,21 +173,21 @@
 					<p class="text text__pos_left spots__country">РОССИЯ</p>
 					<div class="spots__city-container">
 						<img class="spots__arrow" src="<%=require('./images/arrow_right_white.png')%>">
-						<p class="text text__pos_left spots__city">САНКТ-ПЕТЕРБУРГ ( xx.xx.24 - yy.yy.24 )</p>
+						<p class="text text__pos_left spots__city">САНКТ-ПЕТЕРБУРГ (&nbsp;xx.xx.24&nbsp;-&nbsp;yy.yy.24&nbsp;)</p>
 					</div>
 				</div>
 				<div class="spots__desc">
 					<p class="text text__pos_left spots__country">ГРУЗИЯ</p>
 					<div class="spots__city-container">
 						<img class="spots__arrow" src="<%=require('./images/arrow_right_white.png')%>">
-						<p class="text text__pos_left spots__city">ТБИЛИСИ ( xx.xx.24 - yy.yy.24 )</p>
+						<p class="text text__pos_left spots__city">ТБИЛИСИ (&nbsp;xx.xx.24&nbsp;-&nbsp;yy.yy.24&nbsp;)</p>
 					</div>
 				</div>
 				<div class="spots__desc">
 					<p class="text text__pos_left spots__country">ГЕРМАНИЯ</p>
 					<div class="spots__city-container">
 						<img class="spots__arrow" src="<%=require('./images/arrow_right_white.png')%>">
-						<p class="text text__pos_left spots__city">БЕРЛИН ( xx.xx.24 - yy.yy.24 )</p>
+						<p class="text text__pos_left spots__city">БЕРЛИН (&nbsp;xx.xx.24&nbsp;-&nbsp;yy.yy.24&nbsp;)</p>
 					</div>
 				</div>
 				<button class="button button_white button-request">оставить заявку</button>
@@ -248,7 +248,16 @@
 								name='tattoo'
 								minlength='10'
 								maxlength='150'
-								placeholder='желаемое место для&nbsp;татуировки, и&nbsp;ее размер'
+								placeholder='место на теле'
+								required>
+							</input>
+						</label>
+						<label class="form__label form__label_reverse">
+							<input class="form__textarea"
+								name='tattoo'
+								minlength='10'
+								maxlength='150'
+								placeholder='размер татуировки'
 								required>
 							</input>
 						</label>
