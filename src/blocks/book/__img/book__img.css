@@ -2,3 +2,9 @@
     width: 385px;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .book__img {
+        width: 100%;
+    }
+}

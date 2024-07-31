@@ -3,3 +3,9 @@
     flex-direction: column;
     gap: 40px;
 }
+
+@media screen and (max-width: 768px) {
+    .book__images {
+        gap: 20px;
+    }
+}

@@ -4,3 +4,18 @@
     gap: 90px;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .book__buttons {
+        gap: 40px;
+        padding-bottom: 20px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .book__buttons {
+        gap: 20px;
+        flex-direction: column;
+    }
+}

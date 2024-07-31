@@ -12,3 +12,11 @@
         width: 768px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .book__content {
+        width: 100%;
+        padding: 20px 0 0 0;
+        gap: 20px;
+    }
+}

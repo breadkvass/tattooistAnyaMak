@@ -3,3 +3,10 @@
     flex-direction: row;
     gap: 50px;
 }
+
+@media screen and (max-width: 1024px) {
+    .book__columns {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

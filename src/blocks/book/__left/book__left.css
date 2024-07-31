@@ -11,3 +11,11 @@
         gap: 32px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .book__left {
+        gap: 20px;
+        align-items: center;
+        padding: 0 16px;
+    }
+}
