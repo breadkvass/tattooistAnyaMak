@@ -2,3 +2,9 @@
     width: 48px;
     margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .spots__arrow {
+        display: none;
+    }
+}
