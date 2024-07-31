@@ -1,3 +1,9 @@
 .title_left {
     text-align: start;
 }
+
+@media screen and (max-width: 768px) {
+    .title_left {
+        text-align: center;
+    }
+}

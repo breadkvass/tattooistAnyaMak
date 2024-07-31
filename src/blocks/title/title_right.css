@@ -1,3 +1,9 @@
 .title_right {
     text-align: end;
 }
+
+@media screen and (max-width: 768px) {
+    .title_right {
+        text-align: center;
+    }
+}

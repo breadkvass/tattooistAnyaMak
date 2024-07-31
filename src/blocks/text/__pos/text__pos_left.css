@@ -1,3 +1,9 @@
 .text__pos_left {
     text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+    .text__pos_left {
+        text-align: center;
+    }
+}
