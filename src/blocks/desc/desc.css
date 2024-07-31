@@ -7,5 +7,6 @@
 @media screen and (max-width: 768px) {
     .desc {
         gap: 20px;
+        width: calc(100% - 32px);
     }
 }
