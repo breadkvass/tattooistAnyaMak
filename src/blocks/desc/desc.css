@@ -8,5 +8,6 @@
     .desc {
         gap: 20px;
         width: calc(100% - 32px);
+        margin: 0 auto;
     }
 }
