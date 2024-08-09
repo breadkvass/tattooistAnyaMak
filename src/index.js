@@ -80,25 +80,26 @@ window.addEventListener('DOMContentLoaded', () => {
         const submitButton = form.querySelector('button[type="submit"]');
 
         submitButton.addEventListener('click', (e) => {
+            const modalOverlay = document.querySelector('.modal__overlay');
+
             e.stopPropagation();
             e.preventDefault();
-            console.log('клик');
 
             fetch('https://anyamak.sulimova.online/anya-requests.php', {
                 method: 'POST',
                 body: new FormData(document.getElementById('form'))
             })
             .then(() => {
-                console.log('форма успешно отправлена');
+                alert('форма успешно отправлена');
                 // props.setSuccess(true);
             })
             .catch(() => {
-                console.log('ошибка: форма не отправлена');
+                alert('ошибка: форма не отправлена');
                 // props.setSuccess(false);
             })
-            // .finally(() => {
-            //     props.setSubmited(true);
-            // });
+            .finally(() => {
+                modalOverlay.classList.remove('open');
+            });
         })
     }
     
