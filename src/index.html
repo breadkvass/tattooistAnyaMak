@@ -218,19 +218,15 @@
 								required
 							/>
 						</label>
-						<label class="form__label form__label_check">мне уже есть 18:
-							<label class="form__label">да
-								<input class="form__radio-input"
-								name='age'
-								type='radio'
+						<label class="form__label form__label_check">есть&nbsp;18?
+							<input class="form__input"
+								type='text'
+								name='email'
+								minlength='2'
+								maxlength='32'
+								placeholder='да, нет или когда исполнится'
+								required
 							/>
-							</label>
-							<label class="form__label">нет
-								<input class="form__radio-input"
-									name='age'
-									type='radio'
-								/>
-							</label>
 						</label>
 						<label class="form__label">
 							<input class="form__input"
@@ -259,12 +255,12 @@
 								required>
 							</input>
 						</label>
-						<label class="form__label form__label_reverse">
+						<label class="form__label form__label_check">размер татуировки
 							<input class="form__textarea"
 								name='size'
 								minlength='10'
 								maxlength='150'
-								placeholder='размер татуировки'
+								placeholder='в см, можно приблизительно'
 								required>
 							</input>
 						</label>
@@ -273,7 +269,7 @@
 								name='idea'
 								minlength='10'
 								maxlength='150'
-								placeholder='опиши, что это будет'
+								placeholder='опиши свою идею'
 								required>
 							</input>
 						</label>
